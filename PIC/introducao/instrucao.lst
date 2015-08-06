@@ -1,0 +1,206 @@
+MPASM  5.49                     INSTRUCAO.ASM   3-22-2013  23:26:55         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00001 #include "p16f84.inc"
+                      00001         LIST
+                      00002 
+                      00003 ;==========================================================================
+                      00004 ;  MPASM PIC16F84 processor include
+                      00005 ; 
+                      00006 ;  (c) Copyright 1999-2013 Microchip Technology, All rights reserved
+                      00007 ;==========================================================================
+                      00008 
+                      00206         LIST
+Warning[205]: Found directive in column 1. (org)
+0000                  00002 org 0x0
+Warning[203]: Found opcode in column 1. (goto)
+0000   2805           00003 goto Main
+                      00004 ;CT org 0x02
+                      00005 
+Warning[205]: Found directive in column 1. (org)
+0004                  00006 org 0x04
+Warning[203]: Found opcode in column 1. (goto)
+0004   2805           00007 goto Main
+                      00008 
+0005                  00009 Main
+                      00010 
+0005                  00011 inicio
+                      00012 
+Warning[203]: Found opcode in column 1. (bcf)
+0005   1283           00013 bcf STATUS,RP0;define o bank 0, em RP0=0, bit 5 STATUS
+Warning[203]: Found opcode in column 1. (movlw)
+0006   30FF           00014 movlw 0xff
+Warning[203]: Found opcode in column 1. (movlw)
+0007   300F           00015 movlw 0x0f
+                      00016 
+                      00017 
+Warning[203]: Found opcode in column 1. (bsf)
+0008   1683           00018 bsf STATUS,RP0; define o bank 1, em RP0=1, bit 5 STATUS
+Warning[203]: Found opcode in column 1. (movlw)
+0009   300F           00019 movlw 0x0f
+Warning[203]: Found opcode in column 1. (movlw)
+000A   30FF           00020 movlw 0xff
+                      00021 
+                      00022 
+Warning[203]: Found opcode in column 1. (clrf)
+000B   0180           00023 clrf INDF
+                      00024 ;goto Loop
+                      00025 
+Warning[203]: Found opcode in column 1. (movlw)
+000C   300C           00026 movlw 0x0c ;definição do inicio do endereço
+Warning[203]: Found opcode in column 1. (movwf)
+000D   0084           00027 movwf FSR ; FSR aponta p/ o endereço 0x0C
+                      00028 
+000E   0180           00029 LOOP clrf INDF ; INDF = 0
+Warning[203]: Found opcode in column 1. (incf)
+Message[305]: Using default destination of 1 (file).
+MPASM  5.49                     INSTRUCAO.ASM   3-22-2013  23:26:55         PAGE  2
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+000F   0A84           00030 incf FSR; endereço = endereço inicial + 1
+Warning[203]: Found opcode in column 1. (btfss)
+0010   1E04           00031 btfss FSR,4 ; todos os locais de memoria limpos?
+Warning[203]: Found opcode in column 1. (goto)
+0011   280E           00032 goto LOOP ; não, para o loop de novo
+Warning[203]: Found opcode in column 1. (goto)
+0012   2805           00033 goto inicio
+                      00034 
+Warning[205]: Found directive in column 1. (End)
+                      00035 End
+MPASM  5.49                     INSTRUCAO.ASM   3-22-2013  23:26:55         PAGE  3
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+C                                 00000000
+DC                                00000001
+EEADR                             00000009
+EECON1                            00000088
+EECON2                            00000089
+EEDATA                            00000008
+EEIE                              00000006
+EEIF                              00000004
+F                                 00000001
+FSR                               00000004
+GIE                               00000007
+INDF                              00000000
+INTCON                            0000000B
+INTE                              00000004
+INTEDG                            00000006
+INTF                              00000001
+IRP                               00000007
+LOOP                              0000000E
+Main                              00000005
+NOT_PD                            00000003
+NOT_RBPU                          00000007
+NOT_TO                            00000004
+OPTION_REG                        00000081
+PCL                               00000002
+PCLATH                            0000000A
+PORTA                             00000005
+PORTB                             00000006
+PS0                               00000000
+PS1                               00000001
+PS2                               00000002
+PSA                               00000003
+RA0                               00000000
+RA1                               00000001
+RA2                               00000002
+RA3                               00000003
+RA4                               00000004
+RB0                               00000000
+RB1                               00000001
+RB2                               00000002
+RB3                               00000003
+RB4                               00000004
+RB5                               00000005
+RB6                               00000006
+RB7                               00000007
+RBIE                              00000003
+RBIF                              00000000
+RD                                00000000
+RP0                               00000005
+RP1                               00000006
+STATUS                            00000003
+T0CS                              00000005
+T0IE                              00000005
+T0IF                              00000002
+MPASM  5.49                     INSTRUCAO.ASM   3-22-2013  23:26:55         PAGE  4
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+T0SE                              00000004
+TMR0                              00000001
+TMR0IE                            00000005
+TMR0IF                            00000002
+TRISA                             00000085
+TRISA0                            00000000
+TRISA1                            00000001
+TRISA2                            00000002
+TRISA3                            00000003
+TRISA4                            00000004
+TRISB                             00000086
+TRISB0                            00000000
+TRISB1                            00000001
+TRISB2                            00000002
+TRISB3                            00000003
+TRISB4                            00000004
+TRISB5                            00000005
+TRISB6                            00000006
+TRISB7                            00000007
+W                                 00000000
+WR                                00000001
+WREN                              00000002
+WRERR                             00000003
+Z                                 00000002
+_CONFIG                           00002007
+_CP_OFF                           00003FFF
+_CP_ON                            0000000F
+_FOSC_EXTRC                       00003FFF
+_FOSC_HS                          00003FFE
+_FOSC_LP                          00003FFC
+_FOSC_XT                          00003FFD
+_HS_OSC                           00003FFE
+_IDLOC0                           00002000
+_IDLOC1                           00002001
+_IDLOC2                           00002002
+_IDLOC3                           00002003
+_LP_OSC                           00003FFC
+_PWRTE_OFF                        00003FFF
+_PWRTE_ON                         00003FF7
+_RC_OSC                           00003FFF
+_WDTE_OFF                         00003FFB
+_WDTE_ON                          00003FFF
+_WDT_OFF                          00003FFB
+_WDT_ON                           00003FFF
+_XT_OSC                           00003FFD
+__16F84                           00000001
+inicio                            00000005
+MPASM  5.49                     INSTRUCAO.ASM   3-22-2013  23:26:55         PAGE  5
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+
+0000 : X---XXXXXXXXXXXX XXX------------- ---------------- ----------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:    16
+Program Memory Words Free:  1008
+
+
+Errors   :     0
+Warnings :    18 reported,     0 suppressed
+Messages :     1 reported,     0 suppressed
+
+

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/projetos/pic/!svn/ver/2/introducao
+END
+instrucao.asm
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projetos/pic/!svn/ver/2/introducao/instrucao.asm
+END
+instrucao.lst
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projetos/pic/!svn/ver/2/introducao/instrucao.lst
+END
+instrucao.mcs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projetos/pic/!svn/ver/2/introducao/instrucao.mcs
+END
+instrucao.HEX
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projetos/pic/!svn/ver/2/introducao/instrucao.HEX
+END
+LeituraEeprom.asm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projetos/pic/!svn/ver/2/introducao/LeituraEeprom.asm
+END
+introducao.mcw
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projetos/pic/!svn/ver/2/introducao/introducao.mcw
+END
+instrucao.cof
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projetos/pic/!svn/ver/2/introducao/instrucao.cof
+END
+LeituraEeprom.lst
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projetos/pic/!svn/ver/2/introducao/LeituraEeprom.lst
+END
+LeituraEeprom.mcs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projetos/pic/!svn/ver/2/introducao/LeituraEeprom.mcs
+END
+instrucao.err
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projetos/pic/!svn/ver/2/introducao/instrucao.err
+END
+instrucao.map
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projetos/pic/!svn/ver/2/introducao/instrucao.map
+END
+LeituraEeprom.err
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projetos/pic/!svn/ver/2/introducao/LeituraEeprom.err
+END
+instrucao.O
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projetos/pic/!svn/ver/2/introducao/instrucao.O
+END

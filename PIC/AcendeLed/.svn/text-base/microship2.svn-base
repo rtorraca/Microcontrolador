@@ -1,0 +1,27 @@
+CBLOCK	0X70			; POSIÇÃO INICIAL DA RAM
+
+ENDC
+
+#INCLUDE <P18F452.INC>		; ARQUIVO DE DEFINIÇÕES DO PIC ATUAL
+
+
+ORG 0x0000
+
+GOTO INICIO
+
+
+INICIO
+
+CLRF PORTB ; Initialize PORTB by
+
+; clearing output
+; data latches
+CLRF LATB ; Alternate method
+; to clear output
+; data latches
+MOVLW 0xCF ; Value used to
+; initialize data 
+; direction
+MOVWF TRISB ; Set RB<3:0> as inputs
+; RB<5:4> as outputs
+; RB<7:6> as inputs

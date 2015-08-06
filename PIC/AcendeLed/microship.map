@@ -1,0 +1,36 @@
+MPLINK 4.47, Linker
+Linker Map File - Created Tue Mar 19 01:02:23 2013
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000014
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000009      
+            10 out of 1094 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000001    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\AcendeLed\microship.asm
+                     LOOP   0x000004    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\AcendeLed\microship.asm
+                   SETLED   0x000008    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\AcendeLed\microship.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000001    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\AcendeLed\microship.asm
+                     LOOP   0x000004    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\AcendeLed\microship.asm
+                   SETLED   0x000008    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\AcendeLed\microship.asm
+
+

@@ -1,0 +1,71 @@
+MPASM  5.51                  TESTA_PORTAS.ASM   8-9-2013  0:40:05         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Error[105]  : Cannot open file (Include File "htc.h" not found)
+                      00001 #include <htc.h>
+                      00002 
+Warning[205]: Found directive in column 1. (__CONFIG)
+Error[109]  : Unmatched (
+Error[124]  : Illegal argument
+Warning[230]: __CONFIG has been deprecated for PIC18 devices.  Use directive CONFIG.
+Error[126]  : Argument out of range (not a valid config register address)
+                      00003 __CONFIG(1,0x0F24);;
+Warning[205]: Found directive in column 1. (__CONFIG)
+Error[109]  : Unmatched (
+Error[124]  : Illegal argument
+Warning[230]: __CONFIG has been deprecated for PIC18 devices.  Use directive CONFIG.
+Error[126]  : Argument out of range (not a valid config register address)
+                      00004 __CONFIG(2,0X0000);;
+                      00005 
+                      00006 
+Error[122]  : Illegal opcode (Wait)
+                      00007 void Wait()
+Error[108]  : Illegal character ({)
+                      00008 {
+Warning[207]: Found label after column 1. (unsigned)
+Error[122]  : Illegal opcode (char)
+                      00009    unsigned char i;
+Warning[207]: Found label after column 1. (for)
+Error[108]  : Illegal character (()
+                      00010    for(i=0;i<100;i++)
+Warning[207]: Found label after column 1. (_delay)
+Error[108]  : Illegal character (()
+                      00011       _delay(60000);;
+Error[108]  : Illegal character (})
+                      00012 }
+                      00013 
+                      00014 
+Error[122]  : Illegal opcode (main)
+                      00015 void main()
+Error[108]  : Illegal character ({)
+                      00016 {
+Error[108]  : Illegal character (/)
+                      00017    //Initialize PORTD
+Error[108]  : Illegal character (/)
+                      00018    //PD0 as Output
+Warning[207]: Found label after column 1. (TRISD)
+  11111110            00019    TRISD=0b11111110;
+                      00020 
+Error[108]  : Illegal character (/)
+                      00021    //Now loop forever blinking the LED.
+Error[129]  : Expected (ENDW)
+                      00022    while(1)
+Error[129]  : Expected (END)
+MPASM  5.51                  TESTA_PORTAS.ASM   8-9-2013  0:40:05         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+TRISD                             11111110
+__18F4550                         00000001
+__DEBUG                           1
+
+Errors   :    20
+Warnings :     8 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

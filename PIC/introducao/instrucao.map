@@ -1,0 +1,38 @@
+MPLINK 4.47, Linker
+Linker Map File - Created Fri Mar 22 23:26:56 2013
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x00001e
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000012      
+            16 out of 1093 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     LOOP   0x00000e    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\introducao\instrucao.asm
+                     Main   0x000005    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\introducao\instrucao.asm
+                   inicio   0x000005    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\introducao\instrucao.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     Main   0x000005    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\introducao\instrucao.asm
+                   inicio   0x000005    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\introducao\instrucao.asm
+                     LOOP   0x00000e    program     static C:\Documents and Settings\casa\Desktop\estudoEletronica\introducao\instrucao.asm
+
+
