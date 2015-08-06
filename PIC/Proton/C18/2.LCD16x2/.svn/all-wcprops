@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2
+END
+LCD16x2(C18).hex
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD16x2(C18).hex
+END
+LCD16x2(C18).mcw
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD16x2(C18).mcw
+END
+LCD16x2(C18).cof
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD16x2(C18).cof
+END
+rm18f4550 - HID Bootload.lkr
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/rm18f4550%20-%20HID%20Bootload.lkr
+END
+LCD16x2Main.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD16x2Main.c
+END
+LCD_Smart.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD_Smart.c
+END
+LCD16x2(C18).map
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD16x2(C18).map
+END
+LCD16x2(C18).mcp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD16x2(C18).mcp
+END
+LCD_Smart.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD_Smart.h
+END
+LCD16x2Main.err
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD16x2Main.err
+END
+LCD16x2(C18).mcs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projetos/pic/!svn/ver/25/Proton/C18/2.LCD16x2/LCD16x2(C18).mcs
+END

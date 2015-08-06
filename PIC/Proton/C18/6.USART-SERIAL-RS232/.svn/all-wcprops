@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232
+END
+USART-SERIAL-RS232.cof
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/USART-SERIAL-RS232.cof
+END
+USART-Serial.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/USART-Serial.c
+END
+USART-SERIAL-RS232.map
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/USART-SERIAL-RS232.map
+END
+padrao hid boot.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/padrao%20hid%20boot.c
+END
+USART-SERIAL-RS232.mcp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/USART-SERIAL-RS232.mcp
+END
+USART-SERIAL-RS232.mcs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/USART-SERIAL-RS232.mcs
+END
+USART-SERIAL-RS232.hex
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/USART-SERIAL-RS232.hex
+END
+rm18f4550 - HID Bootload.lkr
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/rm18f4550%20-%20HID%20Bootload.lkr
+END
+USART-SERIAL-RS232.mcw
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projetos/pic/!svn/ver/25/Proton/C18/6.USART-SERIAL-RS232/USART-SERIAL-RS232.mcw
+END
